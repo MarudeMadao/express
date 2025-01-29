@@ -8,7 +8,7 @@ router.use(cors());
 
  // 接続情報を設定
  const { MongoClient } = require("mongodb");
- const uri = "mongodb+srv://2201100307fi:uai6HrV7Dn2RBcWR@test.xbaz7.mongodb.net/?retryWrites=true&w=majority&appName=test";
+ const uri = "mongodb+srv://22";
  const client = new MongoClient(uri);
 
  router.get('/', async (req, res) => {
